@@ -66,6 +66,48 @@ h6,
   visibility: visible;
   opacity: 1;
 }
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  background: #191919;
+  font-size: 15px;
+  height: 40px;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#topbar .contact-info a {
+  line-height: 0;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+
+#topbar .contact-info a:hover {
+  color: #fff;
+}
+
+#topbar .contact-info i {
+  color: #cc1616;
+  line-height: 0;
+  margin-right: 5px;
+}
+
+#topbar .contact-info .phone-icon {
+  margin-left: 15px;
+}
+
+#topbar .social-links a {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#topbar .social-links a:hover {
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -79,7 +121,7 @@ h6,
 }
 
 #header.header-transparent {
-  background: none;
+  /*background: none;*/
 }
 
 #header.header-scrolled {
@@ -110,7 +152,7 @@ h6,
 }
 
 #main {
-  margin-top: 80px;
+  /*margin-top: 80px;*/
 }
 
 /*--------------------------------------------------------------
